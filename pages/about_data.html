@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-family: 'Raleway', sans-serif;
+		overflow-x: hidden;
+      }
+	  .nav-pills>li.active>a{
+	  color: white;
+	  }
+	  .nav-pills>li>a{
+	  background-color: white;
+	  }
+	  .nav-pills>li>a{
+	  color: black;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  font-size: 16px;
+	  }
+	  
+
+    </style>
+  </head>
+
+<body style="background-color: #A9A9A9;">
+	<!-- <div class="col-lg-2"></div> 
+	<div class="col-lg-8"> -->
+	
+<!-- nav buttons at the top of the page --> 
+<div class="row" style="padding-left: 60px; padding-right: 60px; padding-top: 55px; padding-bottom: 25px;">	
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">		
+		<ul class="nav nav-pills nav-stacked flex">
+				<li class="active"><a data-toggle="tab" href="#regionalRollup">Crucial Habitat Regional Roll-Up</a></li>
+				<li><a data-toggle="tab btn btn-primary" href="#crucialHabTerm">Crucial Habitat Technical Terminology</a></li>
+				<li><a data-toggle="tab" href="#crucialHabLayers">Crucial Habitat Data Input Layers</a></li>
+				<li><a data-toggle="tab" href="#acronyms">Acronyms</a></li>
+				<li><a data-toggle="tab" href="#conservation">Conservation Status</a></li>
+				<li><a data-toggle="tab" href="#ancillary">Ancillary Data Layers</a></li>
+				<li><a data-toggle="tab" href="#citations">Citing the Crucial Habitat Dataset</a></li>
+		</ul>
+	</div>
+	
+<!-- The data tabs --> 
+	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 tab-content">
+	
+	<!-- Regional Roll-up information --> 
+	<div id="regionalRollup" class="tab-pane fade in active">
+		<div class="col-lg-12" style="padding: 20px; background-color: white;">
+				<h3 style='text-align: center;'>Crucial Habitat Regional Roll-Up</h3>
+				<p>The state wildlife agencies which developed CHAT agreed to common definitions of crucial wildlife habitat and corridors and issued guidelines to help each state prioritize 
+				habitat within its boundaries to meet its specific conservation objectives. The West-wide definitions support compatibility and consistency across state boundaries and address 
+				certain discrepancies that may exist in identifying habitat and natural features along state borders. This broad-based, collaborative effort across 16 states has resulted in a 
+				West-wide crucial habitat data layer derived from important habitat and connectivity input layers.</p>
+				<p>Crucial habitat datasets from all CHAT contributors were reviewed and approved as of August 31, 2018.</p>
+			<div style='text-align: center;'>
+				<img src="https://farm5.staticflickr.com/4781/40639579411_51acd5d220_k.jpg" width="64.5%" alt="Crucial Habitat Diagram">
+			</div>
+		
+		</div>
+	</div>
+	
+<!-- conservation status --> 
+<div id="conservation" class="tab-pane fade">
+<div class="col-lg-12" style="background-color: white; padding: 15px;">
+		<div class="col-lg-2"></div>
+		<div class="col-lg-8">
+		<h3 style="text-align: center;">Conservation Status</h3>
+		</br>
+		<table class="table table-hover table-striped">
+			<tbody>
+				<tr>
+					<td style="font-weight: bold">E</td>
+					<td>-</td>
+					<td>Endangered (Federal or State)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">T</td>
+					<td>-</td>
+					<td>Threatened (Federal or State)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">C</td>
+					<td>-</td>
+					<td>Candidate (Federal or State)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">S Rank</td>
+					<td>-</td>
+					<td>State conservation status (Natureserve)
+						<ul>
+							<li><span style='font-weight: bold;'>S1</span>     -    Critically Imperiled</li>
+							<li><span style='font-weight: bold;'>S2</span>     -    Imperiled</li>
+							<li><span style='font-weight: bold;'>S3</span>     -    Vulnerable</li>
+							<li><span style='font-weight: bold;'>S4</span>     -    Apparently Secure</li>
+							<li><span style='font-weight: bold;'>S5</span>     -    Secure</li>
+					</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">G Rank</td>
+					<td>-</td>
+					<td>Global conservation status (Natureserve)
+						<ul>
+							<li><span style='font-weight: bold;'>G1</span>     -    Critically Imperiled</li>
+							<li><span style='font-weight: bold;'>G2</span>     -    Imperiled</li>
+							<li><span style='font-weight: bold;'>G3</span>     -    Vulnerable</li>
+							<li><span style='font-weight: bold;'>G4</span>     -    Apparently Secure</li>
+							<li><span style='font-weight: bold;'>G5</span>     -    Secure</li>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</div>
+</div>
+	
+	
+</div>
+
+
+<!-- conservation status --> 
+<div id="conservation" class="tab-pane fade">
+<div class="col-lg-2">
+	</div>
+	<div class="col-lg-8" style="background-color: white; padding: 15px;">
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4">
+		<h3 style="text-align: center;">Conservation Status</h3>
+		</br>
+		<table class="table table-hover table-striped">
+			<tbody>
+				<tr>
+					<td style="font-weight: bold">E</td>
+					<td>-</td>
+					<td>Endangered (Federal or State)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">T</td>
+					<td>-</td>
+					<td>Threatened (Federal or State)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">C</td>
+					<td>-</td>
+					<td>Candidate (Federal or State)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">S Rank</td>
+					<td>-</td>
+					<td>State conservation status (Natureserve)
+						<ul>
+							<li><span style='font-weight: bold;'>S1</span>     -    Critically Imperiled</li>
+							<li><span style='font-weight: bold;'>S2</span>     -    Imperiled</li>
+							<li><span style='font-weight: bold;'>S3</span>     -    Vulnerable</li>
+							<li><span style='font-weight: bold;'>S4</span>     -    Apparently Secure</li>
+							<li><span style='font-weight: bold;'>S5</span>     -    Secure</li>
+					</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">G Rank</td>
+					<td>-</td>
+					<td>Global conservation status (Natureserve)
+						<ul>
+							<li><span style='font-weight: bold;'>G1</span>     -    Critically Imperiled</li>
+							<li><span style='font-weight: bold;'>G2</span>     -    Imperiled</li>
+							<li><span style='font-weight: bold;'>G3</span>     -    Vulnerable</li>
+							<li><span style='font-weight: bold;'>G4</span>     -    Apparently Secure</li>
+							<li><span style='font-weight: bold;'>G5</span>     -    Secure</li>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- General Acronyms --> 
+<div id="acronyms" class="tab-pane fade">
+	<div class="col-lg-2">
+	</div>
+	<div class="col-lg-8" style="background-color: white; padding: 15px;">
+		<h3 style='text-align: center;'>General Acronyms</h3>
+		</br>
+		<div class="col-lg-2"></div>
+		<div class="col-lg-8">
+		<table class="table table-hover table-striped">
+			<thead>
+				<tr>
+					<th>Acronym</th>
+					<th></th>
+					<th style="text-align: center;">Definition</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="font-weight: bold">ESOC</td>
+					<td>-</td>
+					<td>Ecological System(s) of Concern</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">GAP</td>
+					<td>-</td>
+					<td>Gap Analysis Program (coordinated by the USGS)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">NHD</td>
+					<td>-</td>
+					<td>National Hydrography Dataset</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">NHP</td>
+					<td>-</td>
+					<td>Natural Heritage Program</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">NFHAP</td>
+					<td>-</td>
+					<td>National Fish Habitat Action Plan.  (NFHAP assessment of watershed condition at HUC-12 level was used by some states in their crucial habitat layers.)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">NWI</td>
+					<td>-</td>
+					<td>National Wetland Inventory</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">LIB</td>
+					<td>-</td>
+					<td>Large Intact Block</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">SERI</td>
+					<td>-</td>
+					<td>Species of Economic and/or Recreational Importance</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">SGCN</td>
+					<td>-</td>
+					<td>Species of Greatest Conservation Need as defined in State Wildlife Action Plans (SWAPs)</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">SOC</td>
+					<td>-</td>
+					<td>Species of Concern, as defined in Crucial Habitat Data Input Layers.</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">USFW</td>
+					<td>-</td>
+					<td>United States Fish and Wildlife Service</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">USGS</td>
+					<td>-</td>
+					<td>United States Geological Survey</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">WGA</td>
+					<td>-</td>
+					<td>Western Governors' Association</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold">WGWC</td>
+					<td>-</td>
+					<td>Western Governors' Wildlife Council</td>
+				</tr>
+		
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
