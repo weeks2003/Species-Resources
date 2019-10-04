@@ -1,0 +1,29 @@
+
+<div class="row" style="text-align: center; margin: auto;">
+
+<div class="col-xs-0 col-sm-0 col-md-0 col-lg-3"></div>
+
+<!-- entry 1 -->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" style="padding:20px;">
+<div class="col-xs-12" style="padding: 5px; background-color: white;box-shadow: 0 6px 8px 4px rgba(0,0,0,0.70);">
+     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="float: right; padding: 0px; text-align: center;background-image: url(https://cloud.wafwachat.org/Images/Western_Monarch_CHAT_Thumbnail.PNG); background-size: 100%;background-repeat: no-repeat; background: contain; height: 200px;">
+           
+     </div>
+     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 0px; height: 300px; ">
+          <div style="padding-right: 15px; padding-left: 15px;">
+          <h4 style="text-align: center; padding-top: 10px;"><a href="http://wafwaprojects.maps.arcgis.com/apps/webappviewer/index.html?id=3d8dc6f6c4434ce1be32fe352d355ffb" target="_blank">Bat Assessment Tool</a></h4>
+            <div class="hidden-xs col-sm-12" style="margin: auto;"> <p><span style="color: currentcolor;"><br></span></p><p style="padding: 5px;"><span style="color: currentcolor;">Interactive web application designed for visualizing and exploring western monarch crucial habitat data to aid in habitat conservation and allow informed decision-making.</span></p> </div>
+<div style="position: absolute; right: 0; bottom: 0; width: 100%; padding-right: 0px;">
+<a href="http://wafwaprojects.maps.arcgis.com/apps/webappviewer/index.html?id=3d8dc6f6c4434ce1be32fe352d355ffb" target="_blank" class="btn btn-primary center-block" role="button">Explore Western Monarch CHAT</a></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-xs-0 col-sm-0 col-md-0 col-lg-3"></div>
+
+
+<p></p><div class="row" style="background: rgba(43,43,43,.8); color: #fff;border: 0px solid black; padding: 20px; margin: auto; text-align: center; max-width: 335px;"><p></p>
+<p></p><h1>Bat Apps &amp; Data</h1><p></p>
+<div></div></div>

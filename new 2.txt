@@ -1,0 +1,138 @@
+<div id="MoreInfo" style="display: block; position: relative; top: -225px; visibility: hidden;">
+</div>
+<div style="background: rgba(43,43,43,0.8); color: #fff; padding: 20px; min-height: 700px;">
+
+<h1 style="text-align: center;">Additional Information</h1>
+
+<div class="col-lg-12" style="background-color: white; height=2px; margin-bottom: 10px;"></div>
+<ul class="nav nav-pills nav-justified">
+    <li class="active"><a data-toggle="tab" href="#About" style="font-size: 24px;" aria-expanded="true">About</a></li>
+    <!--<li><a data-toggle="tab" href="#" style='font-size: 24px;'>How To Use The Framework</a></li> <!-- #HowTo -->
+    <!--  <li><a data-toggle="tab" href="#" style='font-size: 24px;'>Framework Structure</a></li>  <!--#Standardized -->
+    <!-- <li><a data-toggle="tab" href="#Design" style='font-size: 24px;'>Design and Development</a></li> -->
+    <li><a data-toggle="tab" href="#Tools" style="font-size:25px;">Tools</a></li>
+    <li class=""><a data-toggle="tab" href="#Examples" style="font-size: 25px;" aria-expanded="false">Examples</a></li>
+
+  </ul>
+
+<div class="tab-content">
+
+<!-- ********************************************************************************** First Page ************************************************************* -->
+<div id="About" class="tab-pane fade active in">
+<div class="row" style="padding-left: 15px; padding-right: 15px;">
+<div class="col-lg-12" style="background-color: white; height=2px; margin-bottom: 10px;"></div>
+<div class="col-lg-12">
+<h1 style="text-align: center;">About The KU Nested Hexagon Framework</h1>
+</div>
+
+ <!-- end of row -->
+<div class="row">
+<div class="col-lg-7">
+    <p style="font-size: 16px;">The West-wide Crucial Habitat Assessment Tool (CHAT) was developed under the direction of the Western Governors Association in 2013.  The Western Association of Fish and Wildlife Agencies (WAFWA) acquired the CHAT from the WGA in 2016.  Since then, the utility of a scalable uniform mapping unit that crosses boundaries/regions has become apparent. In addition to providing the spatial hexagons for the CHAT, the KU Nested Hexagon Framework (NHF) was recently developed at the University of Kansas (KU) to provide additional functionality. The NHF facilitates combining data from different sources/scales, allows seamless work across large regions, and allows for the sharing of information without revealing specific spatial data.  <br><br>
+
+The NHF can provide uniform mapping across most of North America, and includes the coastal Economic Exclusivity Zone (EEZ) around the coast. The NHF provides standardized grid sizes and an attribute schema to facilitate the integration of datasets regardless of the data source, geometry, scale, or project boundaries of source data layers. <br><br>
+
+The Nested Hexagon Framework (NHF)  is being built to provide a summary of multiple data layers for quick and comprehensive assessments while protecting sensitive data.</p><p style="text-align: center; font-size: 16px;"><a href="https://cloud.wafwachat.org/ArchivedResources/NHF_Overview.pdf" target="_blank"><strong>Download NHF Overview</strong></a><br></p><ol><li style="font-size: 16px;">Three spatial scales to choose from to convey information based on the sensitivity of the data.&nbsp;</li><li style="font-size: 16px;">Standardized attribute schema has fields general enough to accommodate most key attributes that are cross-walked into the schema, enabling information from many data sources to be merged into the same attribute fields.&nbsp;</li><li style="font-size: 16px;">Provides users a comprehensive preview of resources and conditions in their area of interest.&nbsp;</li><li style="font-size: 16px;">Gets information integrated into the decision making process without sharing the raw data.&nbsp;</li><li style="font-size: 16px;">Provides users a reference back to the source data layer for transparency and as a resource in case additional information is needed.&nbsp;</li></ol><p style="font-size: 16px;">
+</p><p style="font-size: 16px;"><br></p><p style="font-size: 16px;">2019 © The University of Kansas. All Rights Reserved.</p>
+</div>
+<div class="col-lg-5" style="text-align: center;">
+<img style="border: 0px solid black" src="https://farm5.staticflickr.com/4814/39910189633_a08f83c050_o.png" height="600">
+<img style="border: 0px solid black" src="https://live.staticflickr.com/65535/46782042345_19e30ff336_z.jpg" height="350">
+</div>
+</div> <!-- end of 2nd row -->
+
+<div class="row" style="text-align: center;">
+<!--<img style='border: 1px solid black' src="https://farm5.staticflickr.com/4796/39930203354_0a6a265cc2_o.png" height="138">-->
+</div>
+</div>
+</div>
+
+<!-- ********************************************************************* Page 2 ************************************************************************* -->
+<div id="HowTo" class="tab-pane fade">
+<div class="row" style="padding-left: 15px; padding-right: 15px;">
+<div class="col-lg-12" style="background-color: white; height=2px; margin-bottom: 10px;"></div>
+<h1 style="text-align: center;">How The Framework Can Be Used</h1>
+</div>
+<p style="font-size: 16px;">
+One goal of the  hexagon framework is to create a centralized repository where the attribute tables from individual data sets referenced to the NHF can all be submitted and combined to create a ever-growing database of what is within Hexagons/Cogs/Wheels across North America.  It is envisioned that this master standardized attribute table and a the spatial reference layers will be available through a web map service to allow easy access to the data needed to make informed decisions.<br></p>
+<ul>
+<li><div><h3>The hexagon framework can be used for a number of applications including:</h3>
+<p style="font-size:16px;">
+</p><ol style="font-size: 16px;">
+<li>Spatially obscure sensitive data locations (species/feature occurrence data) while conveying the general information of what is occurring in that area. 
+</li><li>Representing conservation efforts where participating properties should not be specifically revealed.
+</li><li>Representation of data that was collected at a point but the data is actually applicable at a larger area (and species move from their observation point).<br></li><li>Creating a comprehensive view of what is in that cell based on data from multiple data sets that don’t easily lend themselves to aggregate summaries. 
+</li></ol>
+ <p></p>
+<div style="padding-left: 75px;">
+<img style="border: 1px solid black" src="https://farm5.staticflickr.com/4652/39746075325_d4337cf280_o.png" height="300">
+</div></div>
+<br>
+</li><li><div><h3>Hexagon-based Site Assessments</h3>
+<p style="font-size:16px;">
+Select hexagon(s)  in an area of interest, to generate results showing what is in that selection from all referenced data sets.  This could allow a single query to reference occurrence data, modeled distributions, delineated critical areas, conservation efforts, landscape features, stream/watershed data etc, to get a comprehensive view of what is in that area.  The more data layers referenced to the hexagon framework the more comprehensive the assessment.
+</p></div>
+<br>
+</li><li><div><h3>Search attribute table for cells that meet specified conditions</h3>
+<p style="font-size:16px;">
+With a standardized attribute table containing references to a wide range of data sets, queries can be made against that table to find all the cells that have those criteria.  For example, a search could be done to identify cells that have whooping crane, monarch butterfly, wetlands, and CHAT Intact landscapes to highlight areas of combined importance. 
+</p></div>
+ </li></ul></div>
+
+<!-- ********************************************************************  Page 3 ************************************************************* -->
+<div id="Standardized" class="tab-pane fade" style="font-size: 16px;">
+<div class="row" style="padding-left: 15px; padding-right: 15px;">
+<div class="col-lg-12" style="background-color: white; height=2px; margin-bottom: 10px;"></div>
+    <h2 style="text-align: center;">Standardized Hexagon Framework Structure</h2>
+</div>
+    <p>Due to the size of the WAFWA hexagon framework, and the desire to allow for increased data sharing, the framework is managed as two separate pieces:</p>
+<ol>
+     <li>The spatial feature classes of the hexagons attributed with unique ID’s and the states they intersect.
+      </li><li>A standardized attribute table that has general fields to accept the key attributes from most data sets so all users are referencing the same attribute fields.  Once users have the grid, they only need to share the .dbf attribute table with others making the sharing of large data sets easier.
+</li></ol> 
+<p></p><br>
+<p>
+The hexagon feature class layer is populated with attributes to relate the hexagon ID, Cog ID, and any states the cell intersects.  Attribute for State1, State2, State3, and State4 list in order, the states that have the largest proportion of intersect with the cell.<br></p>
+
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-4">
+<img style="border: 2px solid black" src="https://farm5.staticflickr.com/4661/39947318194_eec05b3bf5_o.png">
+</div>
+<div class="col-sm-4" style="padding-top: 50px;">
+<p>Feature class attribute table indicating that the selected hexagon is primarily in Idaho, with some area in Nevada, and the least amount of area in Utah.</p>
+<img src="https://farm5.staticflickr.com/4652/39761551045_d93f01de1e_o.png">
+</div>
+<div class="col-sm-3"></div>
+</div>
+<p>The standardized attribute table starts with Cog and Hex ID’s to enable a join/relate back to the spatial Feature Class.  It then has eight fields to capture a wide range of data and include references back to the source data so users know where it came from. <span style="color:  #1E90FF"><strong>By putting key information into these standardized attributes, attribute tables can combine information from a large variety of datasets regardless of the source data type, scale, methods, or topic.  All associated layers can then be mapped together in the CHAT framework.</strong></span></p>
+<br>
+<div style="text-align: center;">
+<img src="https://farm5.staticflickr.com/4753/39948672004_898b540b40_o.png">
+</div>
+<br>
+<p style="width: 800px; text-align: center; margin: auto;">Attributes of the standardized data framework that will accept data from source data tables and capture most key pieces of information to convey the information. </p>
+  </div>
+
+<!-- ********************************************************************  Tools  ************************************************************* -->
+<div id="Tools" class="tab-pane fade" style="font-size: 16px;">
+<div class="row" style="padding-left: 15px; padding-right: 15px;">
+<div class="col-lg-12" style="background-color: white; height=2px; margin-bottom: 10px;"></div>
+    <h2 style="text-align: center;">Nested Hexagon Framework Tools</h2>
+</div>
+    <p>Under Construction.  Coming Soon!</p>
+ </div>
+<!-- ********************************************************************  Examples  ************************************************************* -->
+<div id="Examples" class="tab-pane fade" style="font-size: 16px;">
+<div class="row" style="padding-left: 15px; padding-right: 15px;">
+<div class="col-lg-12" style="background-color: white; height=2px; margin-bottom: 10px;"></div>
+    <h2 style="text-align: center;">Framework Examples</h2>
+</div>
+    <p>Under Construction.  Coming Soon!</p>
+ </div>
+
+<!----------------------- End ----------------------->
+<div>
+
+
+</div></div></div>

@@ -1,0 +1,189 @@
+<p><style>
+.caption2 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background: rgba(255,255,255,.6);
+    color: black;
+    font-size: 10px;
+    text-align: center; 
+}
+.thumbnail{
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.70);
+    position: relative; 
+  }
+.nav-pills a{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.nav-tabs a{
+ text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.btn-gray { 
+  color: #ffffff; 
+  background-color: #B0B0B0; 
+  border-color: #FFFFFF; 
+} 
+.btn-gray:hover, 
+.btn-gray:focus, 
+.btn-gray:active, 
+.btn-gray.active, 
+.open .dropdown-toggle.btn-gray { 
+  color: #ffffff; 
+  background-color: #B0B0B0; 
+  border-color: #FFFFFF; 
+} 
+.btn-gray:active, 
+.btn-gray.active, 
+.open .dropdown-toggle.btn-gray { 
+  background-image: none; 
+} 
+ .btn-gray.disabled, 
+.btn-gray[disabled], 
+fieldset[disabled] .btn-gray, 
+.btn-gray.disabled:hover, 
+.btn-gray[disabled]:hover, 
+fieldset[disabled] .btn-gray:hover, 
+.btn-gray.disabled:focus, 
+.btn-gray[disabled]:focus, 
+fieldset[disabled] .btn-gray:focus, 
+.btn-gray.disabled:active, 
+.btn-gray[disabled]:active, 
+fieldset[disabled] .btn-gray:active, 
+.btn-gray.disabled.active, 
+.btn-gray[disabled].active, 
+fieldset[disabled] .btn-gray.active { 
+  background-color: #B0B0B0; 
+  border-color: #FFFFFF; 
+} 
+.btn-gray .badge { 
+  color: #B0B0B0; 
+  background-color: #ffffff; 
+}
+img.desaturate {
+    filter: grayscale(100%);
+}
+@media (min-width: 1200px) {
+ .col-lg-14 {
+   width: 14.285%;
+   float: left;
+   position: relative;
+}
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+</style></p>
+<div class="container-fluid">
+<div class="row">
+<!-- Coming Soon -->
+     <!-- Mule Deer -->
+    <div class="col-lg-14  col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 15px;">
+        <div class="thumbnail">
+            <!--<a href=""></a>-->
+            <img class="desaturate" src="https://farm1.staticflickr.com/919/28480536757_633282aa3c_o.png" alt="mule_deer" style="padding: 0px; margin-top: 0px; ">
+            <div class="caption" style="text-align: center;">
+                                <div style="height: 45px;">
+                <h6>Mule Deer<br></h6>
+                                </div>
+                <a class="btn btn-gray disabled center-block ellipsis" role="button">Coming Soon</a>
+                <!--  <a href="/pages/lesser-prairie-chicken" class="btn btn-primary center-block ellipsis" role="button">Coming Soon</a> -->
+            </div>
+        </div>
+    </div>
+<!-- SageGrouse -->
+    <div class="col-lg-14  col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="thumbnail">
+            <img src="https://farm1.staticflickr.com/788/40611327615_946617c13e_o.jpg" alt="Greater Sage-Grouse" style="padding: 0px; margin-top: 0px;" class="desaturate">
+            <div class="caption" style="text-align: center;">
+                                <div style="height: 45px;">
+                <h6>Greater Sage-Grouse<br></h6>
+                                </div>
+                <a class="btn btn-gray disabled center-block ellipsis" role="button">Coming Soon</a>
+            </div>
+        </div>
+    </div>
+<div class="clearfix visible-xs-block"></div>
+<!-- Trout -->
+    <div class="col-lg-14  col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="thumbnail">
+            <img src="https://farm1.staticflickr.com/843/26634784937_b82c65871e_o.jpg" alt="trout" style="padding: 0px; margin-top: 0px; " class="desaturate">
+            <div class="caption" style="text-align: center;">
+                                  <div style="height: 45px;">
+                <h6>Western Native Trout<br></h6>
+                                </div>
+                <a class="btn btn-gray disabled center-block ellipsis" role="button">Coming Soon</a>
+                <!--  <a href="/pages/lesser-prairie-chicken" class="btn btn-primary center-block" role="button">Open Trout</a> -->
+            </div>
+        </div>
+    </div>
+<div class="clearfix visible-sm-block"></div>
+<!-- Lesser prairie-chicken -->
+    <div class="col-lg-14  col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="thumbnail">
+            <a href="/pages/lesser-prairie-chicken">
+            <img src="https://farm8.staticflickr.com/7860/32000712977_d9b5d3fcc9_o.jpg" alt="Card Thumbnail" style="padding: 0px; margin-top: 0px;"></a>
+            <div class="caption" style="text-align: center; ">
+                                 <div style="height: 45px;">
+                <h6>Lesser Prairie-Chicken</h6>
+                                </div>
+                <a href="/pages/lesser-prairie-chicken" class="btn btn-primary center-block ellipsis" role="button">Open LPC</a>
+            </div>
+        </div>
+    </div>
+<!-- clear fix -->
+<div class="clearfix visible-md-block"></div>
+<!-- Bats -->
+    <div class="col-lg-14 col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="thumbnail">
+        <!--<a href=""></a>-->
+          <img src="https://farm8.staticflickr.com/7893/47099273761_d95eac63e6_o.png" alt="Bats" style="padding: 0px; margin-top: 0px;" class="desaturatehalf">
+              <div class="caption" style="text-align: center;">
+                 <div style="height: 45px;">
+                <h6>Bat Priority Zones<br></h6>
+                 </div>
+                <!-- <a class="btn btn-gray disabled center-block" role="button">Open Bats</a> -->
+                <a href="/pages/bat-priority-zones" class="btn btn-primary center-block ellipsis" role="button" style="background-color: green;border: none;">In Progress</a>
+            </div>
+        </div>
+      </div>
+<!-- Golden Eagles -->
+    <div class="col-lg-14  col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="thumbnail">
+            <a href="/pages/golden-eagles">
+            <img src="https://farm1.staticflickr.com/810/40347367794_fbcc4b0bd4_o.png" alt="Golden Eagle" style="padding: 0px; margin-top: 0px; "></a>
+            <div class="caption" style="text-align: center; padding-bottom: 8px">
+                                 <div style="height: 45px;">
+                <h6>Golden Eagles<br></h6>
+                                </div>
+                <!--<a class="btn btn-gray disabled center-block" role="button">Open Golden Eagles</a> -->
+                <a href="/pages/golden-eagles" class="btn btn-primary center-block ellipsis" role="button" style="background-color: green;border: none;">In Progress</a>
+            </div>
+        </div>
+    </div>
+<div class="clearfix visible-sm-block visible-xs-block"></div>
+<!-- Western Monarch -->
+    <div class="col-lg-14  col-md-3 col-sm-4 col-xs-6" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="thumbnail">
+            <img src="https://farm8.staticflickr.com/7890/33224322248_c597d0b0c5_o.png" alt="Western Monarch" style="padding: 0px; margin-top: 0px; ">
+            <div class="caption" style="text-align: center;">
+                                 <div style="height: 45px;">
+                <h6>Western Monarch<br></h6>
+                                </div>
+                   <!--<a class="btn btn-gray disabled center-block" role="button">Open Monarchs</a>-->
+                <a href="/pages/western-monarch" class="btn btn-primary center-block ellipsis" role="button" style="background-color: green;border: none;">In Progress</a> 
+            </div>
+        </div>
+    </div>
+
+<p></p></div> <!-- end of row -->
+</div><p></p>
